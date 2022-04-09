@@ -1,5 +1,6 @@
 ---
 import { Markdown } from 'astro/components';
+import Counter from "./Counter.vue"
 ---
 
 <article>
@@ -8,6 +9,7 @@ import { Markdown } from 'astro/components';
 	</div>
 
 	<section>
+		<Counter client:load />
 		<Markdown>
 			## 🚀 Project Structure
 

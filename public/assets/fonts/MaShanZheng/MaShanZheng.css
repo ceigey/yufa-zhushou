@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Ma Shan Zheng";
+    font-weight: normal;
+    font-style: normal;
+    src: url('./MaShanZheng-Regular.woff') format("woff"),
+        url('./MaShanZheng-Regular.ttf') format("truetype");
+}

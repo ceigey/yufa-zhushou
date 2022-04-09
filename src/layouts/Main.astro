@@ -1,0 +1,32 @@
+---
+import { Markdown } from 'astro/components';
+import Ruby from "../components/Ruby.vue"
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/fonts.css" />
+    </head>
+    <body>
+            <h1>
+                <Ruby text="Yǔfǎ Zhūshǒu">语法助手</Ruby> - Grammar Helper
+            </h1>
+            <hr />
+            
+            <slot />
+
+            <span class="mw">Hi there</span>
+    </body>
+</html>
+
+<style>
+body {
+    /* font-family: "ZCOOL XiaoWei"; */
+    /* font-family: Merriweather; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.kaiti {
+    font-family: "Ma Shan Zheng";
+}
+</style>
